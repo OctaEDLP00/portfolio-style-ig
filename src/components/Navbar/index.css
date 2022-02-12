@@ -1,0 +1,251 @@
+@import url("//fonts.cdnfonts.com/css/billabong");
+
+.navigation {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  height: 60px;
+  width: 100%;
+  max-width: 975px;
+  top: 0;
+  left: 25%;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 0px 50px;
+  z-index: 2;
+  /* animation magic */
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.img-nav {
+  width: 154px;
+  height: 45px;
+  color:#000;
+}
+
+.navigation .logo a {
+  position: relative;
+  font-size: 30px;
+  font-family: "billabong", sans-serif;
+  text-decoration: none;
+}
+
+/* .navigation .logo a {
+  
+} */
+
+.navigation-search-container {
+  position: relative;
+}
+
+.navigation-search-container input {
+  background-color: #fafafa;
+  padding: 3px 20px;
+  padding-left: 25px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.0975);
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.navigation-search-container .fa-search {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 11px;
+  color: rgba(0, 0, 0, .5);
+}
+
+.navigation-icons {
+  display: flex;
+}
+
+.navigation-search-container input:focus {
+  outline: none;
+}
+
+.navigation-search-container input::placeholder {
+  text-align: center;
+}
+
+.navigation-icons a {
+  text-decoration: none;
+}
+
+.navigation-link i {
+  margin-left: 30px;
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.notification-bubble-wrapper {
+  position: relative;
+  top: -30px;
+  left: 17px;
+}
+
+.notification-bubble {
+  position: absolute;
+  min-width: 20px;
+  min-height: 20px;
+  border-radius: 50%;
+  background: #ff2c74;
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  padding: 5px 5px 3px;
+  font-weight: 500;
+  display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 650px) {
+  .navigation {
+    padding: 0 20px;
+    justify-content: space-between;
+  }
+  .navigation-search-container {
+    display: none;
+  }
+  .navigation-icons {
+    display: flex;
+  }
+}
+
+/* .nav {
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid #e6e6e6;
+  background: #fff;
+  width: 100vw;
+  height: 60px;
+}
+
+.nav__container {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height:60px;
+  margin: 0 auto;
+  position: absolute;
+  max-width: 975px;
+  left: 25%;
+}
+
+.nav__logo {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: baseline;
+  align-content: stretch;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+a {
+  text-align: center;
+}
+
+.img__nav {
+  width: 154px;
+  height: 45px;
+  color:#000;
+}
+
+.nav__search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  background: #efefef;
+  border-radius: 8px;
+  border: 0.20px solid #efefef;
+  -webkit-box-align: center;
+  -webkit-box-flex: 0;
+  flex: 0 1 auto;
+  height: 36px;
+  min-width: 125px;
+  width: 268px;
+}
+
+.input__nav {
+  padding: 3px 16px;
+  outline: none;
+  font-weight: 300;
+  text-align: center;
+  border-style: none;
+  outline: 0;
+  border-radius: 8px;
+  border: 0.20px solid #efefef;
+  z-index: 2;
+  font-size: 14px;
+  color: #000;
+  background: #efefef;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+.input__nav::placeholder {
+  display:flex;
+  color: #aaaaaa;
+  text-align: center;
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-content: stretch;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ul__nav {
+  display:flex;
+  flex-direction:row;
+  padding-left: 24px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+}
+
+.ul__nav li {
+  display:inline;
+}
+
+.links__nav {
+  display: flex;
+  display: inline-block;
+  margin-right: 30px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.links__nav i {
+  margin: auto;
+  font-size: 1.60rem;
+} */
+
+.red {
+  color: #ff0000;
+}
+
+.orange {
+  color: #f18826;
+}
+
+.light-blue {
+  color: #00ffff;
+}
+
+.cyan {
+  color: #008b8b;
+}

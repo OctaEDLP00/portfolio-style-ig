@@ -1,0 +1,97 @@
+.div__aboutme {
+  display: inline-flex;
+  flex:1;
+  margin-top: 85px;
+  max-width: 975px;
+  width: 100vw;
+  position: absolute;
+  left: 150px;
+  top: 0;
+}
+
+/* 
+.border {
+} 
+*/
+
+.about-me__img {
+  display: flex;
+  background: 50% 50% no-repeat;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 10px;
+  left: 400px;
+}
+
+.about-me__img img {
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+}
+
+.about-me__title {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-me__title h1 {
+  font-size: 20px;
+  font-family: 'Cascadia Code', monospace;
+  color: #000;
+  font-weight: 300;
+}
+
+.about-me__list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 20px;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-me__list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-me__list ul li {
+  font-size: 14px;
+  font-family: 'Cascadia Code', monospace;
+  color: #000;
+  font-weight: 300;
+  display:inline;
+}
+
+.about-me__list ul li a {
+  color: #000;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.about-me__list ul li a:hover {
+  text-decoration: underline;
+}
+
+.about-me__content {
+  
+}
+
+.about-me__content p {
+  font-family: 'Cascadia Code', monospace;
+  font-weight: 300;
+  color: #000;
+  display: inline-block;
+}
